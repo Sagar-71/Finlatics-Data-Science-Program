@@ -1,2 +1,31 @@
 # Finlatics-Data-Science-Program
 Case project created as part of the program
+
+
+
+# Telemarketing Prediction using Random Forest
+
+This project builds a machine learning model to predict whether a customer will subscribe to a term deposit based on telemarketing data.
+
+## 📁 Files Included
+- `Telemarketing_prediction.py`: Main script
+- `confusion_matrix.png`: Confusion matrix of predictions
+- `feature_importance.png`: Top 20 important features
+- `bank_telemarketing_model.pkl`: Trained Random Forest model
+
+## 📊 Metrics
+- Accuracy: ~0.91
+- Precision: ~0.86
+- Recall: ~0.76
+- ROC-AUC: ~0.94
+
+## 🔮 Sample Prediction
+> "Deposit" with 0.85 probability
+
+## 📌 Dataset
+Downloaded using `gdown` from Google Drive: [Dataset Link](https://drive.google.com/uc?id=1luWiMorf4NjS-0NU5uW-HWECUS_nYDjr)
+
+## 🚀 How to Run
+```bash
+pip install -r requirements.txt
+python Telemarketing_prediction.py
